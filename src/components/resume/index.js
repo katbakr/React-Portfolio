@@ -1,11 +1,11 @@
 import React from "react";
 
-function projects() {
+function resume() {
     return (
         <div>
-           this is projects
+           this is resume
         </div>
     );
 }
 
-export default projects;
+export default resume;
