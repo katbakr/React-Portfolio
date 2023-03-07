@@ -1,11 +1,13 @@
 import React from "react";
+import Navigation from "../Navigation";
 
-function header() {
+function Header() {
+
     return (
-        <div>
-            <p id='header'>this is header</p>
-        </div>
-    );
+        <header>
+            <Navigation />
+        </header>
+    )
 }
 
-export default header;
+export default Header;
