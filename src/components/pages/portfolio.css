@@ -13,6 +13,7 @@
   background-color: #000000;
   max-width: 100%;
   max-height: 100%;
+  /* bottom: 0; */
 }
 
 #header {
@@ -42,8 +43,8 @@
   padding-left: 6rem;
   padding-right: 6rem;
   color: "black"; */
-  /* background-color: #ffffff; */
-  /* // display: 'flex',
+/* background-color: #ffffff; */
+/* // display: 'flex',
     // justifyContent: 'center',
 
     // maxWidth: '80%',  */
@@ -66,6 +67,7 @@ footer {
   color: white;
   text-align: center;
   padding: 0, 2rem;
+  position: sticky;
   /* position: absolute;
     right: 0;
     bottom: 0;
@@ -94,16 +96,40 @@ footer li {
   font-size: 3rem;
   color: white;
   background-color: transparent;
-
 }
 /* Home Page =================================================================================================== */
 #container {
-  padding-top: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  /* size: 100%; */
+  align-content: center;
+  align-items: center;
+}
+
+#home1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+#home2{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#AMBtn{
+  border: 2px solid rgb(115, 48, 117);
+  background-color: rgb(0, 0, 0);
+  color: rgb(115, 48, 117);
+  padding: 0.50rem;
+  margin: 3rem;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 #intro {
@@ -143,7 +169,7 @@ footer li {
 
 #navBtn a {
   /* background-color: #32082e; */
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   background-color: transparent;
 }
 
@@ -160,34 +186,32 @@ footer li {
 
 .nav-link:hover {
   color: white;
-  text-shadow: #ffffff
+  text-shadow: #ffffff;
 }
 
-
 /*About me ==============================================================================================  */
-#AMtitle{
+#AMtitle {
   font-family: "Fragment Mono", monospace;
   font-size: 3rem;
   padding-top: 1rem;
-} 
+}
 
 #aboutMe {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-} 
+}
 
-#imgContainer{
+#imgContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   flex-direction: row;
   justify-content: flex-start;
+}
 
-} 
-
- #images{
+#images {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -195,33 +219,33 @@ footer li {
   justify-content: flex-start;
   margin: 0;
   padding: 0;
-} 
+}
 
-#aboutMepic{
+#aboutMepic {
   width: auto;
   height: auto;
   max-width: 33%;
-  max-height: 33%; 
+  max-height: 33%;
   /* padding: .50rem; */
   display: flex;
   flex-wrap: wrap;
-  padding:.75rem;
+  padding: 0.75rem;
 }
 /* Projects ======================================================================================= */
-#cardsList{
+#cardsList {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
- #card {
+#card {
   padding: 1rem;
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   margin: 1rem;
-} 
-#cardBtn{
+}
+#cardBtn {
   /* background-color: rgb(93, 47, 106);
   color: white;
   border: 1px, white;
@@ -229,14 +253,14 @@ footer li {
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(77, 45, 88);
   color: rgb(255, 255, 255);
-  padding: .25rem;
-  margin: .50rem;
+  padding: 0.25rem;
+  margin: 0.5rem;
   font-size: 16px;
   cursor: pointer;
 }
 
 #projImages {
-width: auto;
+  width: auto;
   height: auto;
   max-width: 33rem;
   max-height: 30rem;
@@ -248,17 +272,17 @@ width: auto;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-page{
-  display: flex;
-}
-footer {
-position: static;
-}
-#images {
-  width: auto;
-  height: auto;
-  max-width: 100;
-}  
+  page {
+    display: flex;
+  }
+  footer {
+    position: static;
+  }
+  #images {
+    width: auto;
+    height: auto;
+    max-width: 100;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (max-width: 7px) {
@@ -271,15 +295,15 @@ footer {
 } */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-page{
-  display: flex;
-}
-footer {
-  position: static;
+  page {
+    display: flex;
+  }
+  footer {
+    position: static;
   }
   #images {
     width: auto;
     height: auto;
     max-width: 100;
-  }  
+  }
 }

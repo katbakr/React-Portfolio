@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css'
-import pickup from '../images/pickup'
-import fiero from '../images/fiero'
-import plants from '../images/plants'
+import pickup from '../images/pickup2.jpg'
+import fiero from '../images/fiero2.jpg'
+import plants from '../images/plants2.jpg'
 
 export default function About() {
   return (

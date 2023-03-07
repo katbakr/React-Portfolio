@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 import Projects from './pages/Projects2';
 import Footer from './Footer';
 import './pages/portfolio.css';
-import { FaGithub, FaLinkedin, FaBehanceSquare, FaInstagram, FaSlackHash, FaSlack } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa"
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -113,6 +113,9 @@ export default function PortfolioContainer() {
           </a>
           <a href='https://github.com/katbakr'>
             <li> <FaGithub /> </li>
+          </a>
+          <a href='https://stackoverflow.com/users/21058793/katrina-baker'>
+            <li> <FaStackOverflow /> </li>
           </a>
           {/* <a href='https://stackoverflow.com/users/21058793/katrina-baker'>
             <li> <FaSlack/> </li>
