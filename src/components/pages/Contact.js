@@ -49,27 +49,27 @@ function ContactMe() {
 
     return (
         <div>
-            <section>
+            <section id='contactForm'>
                 <h1>Contact Me</h1>
-                <form id="contact-form" onSubmit={handleFormSubmit}>
-                    <div>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" name="name" defaultValue={name} onBlur={handleInputChange} />
+                <form id="contactForm" onSubmit={handleFormSubmit}>
+                    <div id='name'>
+                        <label htmlFor="name">Name: </label>
+                        <input type="text" name="name" onBlur={handleInputChange} />
                     </div>
-                    <div>
-                        <label htmlFor="email">Email address:</label>
-                        <input type="email" name="email" defaultValue={email} onBlur={handleInputChange} />
+                    <div id='email'>
+                        <label htmlFor="email">Email: </label>
+                        <input type="email" name="email" onBlur={handleInputChange} />
                     </div>
-                    <div>
-                        <label htmlFor="message">Message:</label>
-                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleInputChange} />
+                    <div id='message'>
+                        <label htmlFor="message">Message: </label>
+                        <textarea name="message" rows="5" onBlur={handleInputChange} />
                     </div>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button data-testid="button" type="submit">Submit</button>
+                    <button class='submitFormBtn' data-testid="button" type="submit">Submit</button>
                 </form>
             </section>
         </div>
