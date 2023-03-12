@@ -5,7 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects2';
-import Footer from './Footer';
+// import Footer from './Footer';
 import './pages/portfolio.css';
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa"
 
