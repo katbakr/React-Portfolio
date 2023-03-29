@@ -31,65 +31,7 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  //   const styles = {
-  //   page: {
-  // margin: '0',
-  // padding: '0',
-  // backgroundColor: '#060015',
-  //   },
 
-  //     h1: {
-  //     // position: 'fixed',
-  //     textAlign: 'left',
-  //     paddingLeft: '6rem',
-  //     paddingBottom: '1.5rem',
-  //     paddingTop: '1.5rem', 
-  //     // backgroundColor: '#ff6a45',
-  //     color: 'white',
-  //     backgroundColor: '#060015',
-  //     fontSize: '4rem', 
-
-  //   },
-  //   h2: {
-  //     // position: 'fixed',
-  //     textAlign: 'left',
-  //     paddingLeft: '6rem',
-  //     paddingBottom: '1.5rem',
-  //     // paddingTop: '1.5rem', 
-  //     // backgroundColor: '#ff6a45',
-  //     color: 'white',
-  //     backgroundColor: '#060015',
-
-  //   },
-
-  //   div: {
-  //    paddingLeft: '6rem', 
-  //    paddingRight: '6rem', 
-  //    color: 'black',
-  //    backgroundColor: '#060015',
-  //     // display: 'flex',
-  //     // justifyContent: 'center',
-
-  //     // maxWidth: '80%', 
-  //   },
-
-  //   main: {
-  // padding: '60px',
-  // maxWidth: '95%',
-  // margin: 'auto',
-  // color: 'white',
-  //   },
-
-  //   footer: {
-  //   position: 'fixed',
-  //   left: 0,
-  //   bottom: 0,
-  //   width: '100%',
-  //   backgroundColor: '#060015',
-  //   color: 'white',
-  //   textAlign: 'center'
-  //     }
-  //   }
 
   return (
     <div id='page'>

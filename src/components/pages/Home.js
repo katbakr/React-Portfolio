@@ -3,22 +3,6 @@ import logo from '../images/logo.png';
 import './portfolio.css'
 
 
-// const styles = {}
-
-// intro: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     justifyContent: 'center',
-// },
-
-
-
-
-// };
-
-
-// }
-
 
 export default function Home({ currentPage, handlePageChange }) {
     return (
@@ -29,7 +13,7 @@ export default function Home({ currentPage, handlePageChange }) {
                     <h1>Katrina</h1>
                     <h2>Baker</h2>
                     <p>
-                        Aspiring full stack developer, <br />with high abition and drive.
+                        Aspiring full stack developer, <br />with high ambition and drive.
                     </p>
                 </div>
                 <div id='logo'>
